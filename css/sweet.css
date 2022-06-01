@@ -1,0 +1,192 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 46px;
+
+}
+
+header {
+    background-color: white;
+    padding: 8px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h2 {
+    color: red;
+    font-size: 50px;
+    font-weight: 100px;
+    display: inline-block;
+    position: relative;
+    bottom: 34px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+
+}
+
+h4 {
+    color: palevioletred;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+nav {
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+    padding: auto;
+}
+
+nav ul li a {
+    color: palevioletred;
+    font-size: larger;
+    text-align: center;
+    padding: 32px 26px;
+    text-decoration: dotted;
+
+}
+
+nav ul li a:hover {
+    color: yellow;
+    font-size: x-large;
+
+}
+
+/* NUESTRAS DONAS*/
+.contenedor {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.dona {
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    display: inline;
+    justify-content: space-around;
+}
+
+.dona img {
+    width: 120px;
+
+}
+
+.dona p {
+    font-size: 17px;
+    color: palevioletred;
+}
+
+.dona:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: red;
+}
+
+/* PROXIMAMENTE*/
+h3 {
+    color: white;
+    font-size: xx-large;
+    text-align: left;
+
+}
+
+.contenedorproximo {
+    display:contents;
+    background-color: rgb(56, 31, 31);
+border-radius: 45%;
+    padding: 50px;
+    
+    box-sizing: border-box;
+
+}
+
+.churros {
+    background-color: palevioletred;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    margin-left: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.churros img{
+    border-radius: 50%;
+}
+.churros p{
+    color: white;
+    position: relative;
+    bottom: 35px;
+}
+
+.muffins {
+    background-color: palevioletred;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 10px;
+    border-color: red;
+    padding: 15px;
+}
+.muffins img{
+    border-radius: 50%;
+}
+.muffins p{display: block;
+    margin-inline-end: auto;
+    position: relative;
+    color: white;
+    bottom: 35px;
+}
+
+.pastelitos {
+    background-color: palevioletred;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-left: 10px; 
+    margin-top: 10px;
+    padding: 15px;
+}
+.pastelitos img{
+    border-radius: 50%;
+}
+.pastelitos p{
+    color: white;
+    position: relative;
+    bottom: 35px;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+}
+
+/*fin home*/
